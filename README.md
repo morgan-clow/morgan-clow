@@ -1,6 +1,6 @@
 # Hi, I'm Morgan Clow 👋
 
-I'm a Red Hat Certified Engineer, working toward a role in Linux Systems Engineering and DevSecOps. I have 4+ years of hands-on IT experience across government, education, and enterprise environments — and I'm currently building this portfolio to prove what I can do, not just what I've passed.
+I'm a Red Hat Certified Engineer, working toward a role in Linux Systems Engineering and DevSecOps. I have 5+ years of hands-on IT experience across government, education, and enterprise environments — and I'm currently building this portfolio to prove what I can do, not just what I've passed.
 
 ---
 
@@ -53,10 +53,6 @@ This isn't a course. It's a portfolio of work built in a real lab environment, d
 | [openshift-gitops-lab](https://github.com/morgan-clow/openshift-gitops-lab) | Phase 6 — OpenShift, ArgoCD, GitOps workflows | ⏳ Upcoming |
 
 ---
-
-## 📊 32-Week Lab Progress
-
-```
 
 ## 📬 Connect With Me
 
