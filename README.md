@@ -42,17 +42,17 @@ This isn't a course. It's a portfolio of work built in a real lab environment, d
 
 ---
 
-## 📁 Portfolio Repositories
+## 📁 Portfolio Repositories by Phase
 
-| Repository | Description | Status |
-|---|---|---|
-| [devsecops-lab](https://github.com/morgan-clow/devsecops-lab) | Phase 1 — Linux foundations, RHEL hardening, STIG/OpenSCAP compliance, logging/audit, incident response | 🔨 In Progress |
-| [ansible-hardening-roles](https://github.com/morgan-clow/ansible-hardening-roles) | Phase 1/2 — Production-quality Ansible roles for SSH/PAM hardening, logging/audit, baseline config; AWX integration | 🔨 In Progress |
-| [docker-container-lab](https://github.com/morgan-clow/docker-container-lab) | Phase 3 — Container fundamentals, Docker/Podman, secure image builds, Trivy scanning, SBOMs | ⏳ Upcoming |
-| [kubernetes-lab](https://github.com/morgan-clow/kubernetes-lab) | Phase 3/4 — Kubernetes cluster setup on Proxmox, workloads, storage, networking, RBAC, Helm, Operators | ⏳ Upcoming |
-| [aws-terraform-lab](https://github.com/morgan-clow/aws-terraform-lab) | Phase 2 — Terraform on AWS Free Tier: VPC, subnets, EC2, S3 remote state, IAM roles/policies, basic CI (plan/tests) | ⏳ Upcoming |
-| [observability-lab](https://github.com/morgan-clow/observability-lab) | Phase 2/5 — Prometheus, Alertmanager, Grafana, ELK/OpenSearch, Jaeger, SLOs/alerts, basic chaos tests | ⏳ Upcoming |
-| [openshift-gitops-lab](https://github.com/morgan-clow/openshift-gitops-lab) | Phase 4/5/6 — OpenShift/OKD architecture, Operators, Compliance Operator, ArgoCD GitOps, policy‑as‑code (OPA/Gatekeeper/Kyverno) | ⏳ Upcoming |
+| Phase | Repository | Description | Status |
+|---|---|---|---|
+| **Phase 1 — Linux Foundations, Hardening & Compliance** | [devsecops-lab](https://github.com/morgan-clow/devsecops-lab) | Linux foundations, RHEL hardening, STIG/OpenSCAP compliance, logging/audit, incident response | 🔨 In Progress |
+| **Phase 2 — Automation, Backups, Security & AWS/Terraform** | [ansible-hardening-roles](https://github.com/morgan-clow/ansible-hardening-roles) | Production-quality Ansible roles for SSH/PAM hardening, logging/audit, baseline config; AWX integration | 🔨 In Progress |
+| **Phase 2 — Automation, Backups, Security & AWS/Terraform** | [aws-terraform-lab](https://github.com/morgan-clow/aws-terraform-lab) | Terraform on AWS Free Tier: VPC, subnets, EC2, S3 remote state, IAM roles/policies, basic CI (plan/tests) | ⏳ Upcoming |
+| **Phase 3 — Containers & Kubernetes Core** | [docker-container-lab](https://github.com/morgan-clow/docker-container-lab) | Container fundamentals, Docker/Podman, secure image builds, Trivy scanning, SBOMs | ⏳ Upcoming |
+| **Phase 3 — Containers & Kubernetes Core** | [kubernetes-lab](https://github.com/morgan-clow/kubernetes-lab) | Kubernetes cluster setup on Proxmox, workloads, storage, networking, RBAC, Helm, Operators | ⏳ Upcoming |
+| **Phase 5 — Observability & SRE Practices** | [observability-lab](https://github.com/morgan-clow/observability-lab) | Prometheus, Alertmanager, Grafana, ELK/OpenSearch, Jaeger, SLOs/alerts, basic chaos tests | ⏳ Upcoming |
+| **Phase 4 & 6 — OpenShift, GitOps & Platform Security** | [openshift-gitops-lab](https://github.com/morgan-clow/openshift-gitops-lab) | OpenShift/OKD architecture, Operators, Compliance Operator, ArgoCD GitOps, policy‑as‑code (OPA/Gatekeeper/Kyverno) | ⏳ Upcoming |
 
 ---
 
