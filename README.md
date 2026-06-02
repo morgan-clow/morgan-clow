@@ -28,15 +28,17 @@ This isn't a course. It's a portfolio of work built in a real lab environment, d
 
 | Category | Skills |
 |---|---|
-| **Operating Systems** | RHEL 7/8/9, Rocky Linux, CentOS |
-| **Compliance & Security** | DISA STIGs, OpenSCAP, SELinux, PAM, auditd |
-| **Automation** | Ansible, Bash, Python |
-| **Containers** | Docker, Podman, Kubernetes |
-| **Cloud & IaC** | AWS (VPC, IAM, EC2), Terraform |
-| **Observability** | Prometheus, Grafana, ELK Stack |
-| **Networking** | TCP/IP, DNS, firewalld, nmcli, tcpdump |
-| **Virtualization** | VMware vSphere, ESXi, VirtualBox |
-| **Version Control** | Git, GitHub, GitHub Actions |
+| **Operating Systems** | RHEL 7/8/9, CentOS Stream, Rocky Linux |
+| **Virtualization & Lab** | Proxmox VE, VMware vSphere/ESXi, VirtualBox |
+| **Compliance & Security** | DISA STIGs, OpenSCAP, SELinux, PAM, auditd, SSH hardening |
+| **Automation & IaC** | Ansible, AWX, Terraform (Proxmox + AWS), Bash, basic Python |
+| **Cloud** | AWS Free Tier (VPC, subnets, EC2, S3, IAM, remote state) |
+| **Containers & Orchestration** | Docker, Podman, Kubernetes, OpenShift/OKD, Helm, Operators |
+| **GitOps & APIs** | ArgoCD, GitOps workflows, basic ArgoCD API usage |
+| **Secrets & Security Tooling** | HashiCorp Vault, Trivy (image scanning), Falco (runtime), OPA/Gatekeeper/Kyverno (policy‑as‑code) |
+| **Observability** | Prometheus, Alertmanager, Grafana, ELK/OpenSearch stack, Jaeger (tracing) |
+| **Networking** | TCP/IP, DNS, routing, firewalld, nmcli, NetworkPolicy, tcpdump |
+| **Version Control & CI** | Git, GitHub, GitHub Actions (Terraform/Ansible/container CI) |
 
 ---
 
@@ -44,13 +46,13 @@ This isn't a course. It's a portfolio of work built in a real lab environment, d
 
 | Repository | Description | Status |
 |---|---|---|
-| [devsecops-lab](https://github.com/morgan-clow/devsecops-lab) | Phase 1 — RHEL Hardening, STIG/SCAP Compliance, Ansible, Incident Response | 🔨 In Progress |
-| [ansible-hardening-roles](https://github.com/morgan-clow/ansible-hardening-roles) | Production-quality Ansible roles for RHEL hardening, SSH, auditd, logging | 🔨 In Progress |
-| [docker-container-lab](https://github.com/morgan-clow/docker-container-lab) | Phase 2 — Container internals, Dockerfiles, networking, security | ⏳ Upcoming |
-| [kubernetes-lab](https://github.com/morgan-clow/kubernetes-lab) | Phase 3 — Cluster setup, RBAC, storage, troubleshooting, CKA prep | ⏳ Upcoming |
-| [aws-terraform-lab](https://github.com/morgan-clow/aws-terraform-lab) | Phase 4 — VPC architecture, IAM, EC2, Terraform modules, GitHub Actions CI/CD | ⏳ Upcoming |
-| [observability-lab](https://github.com/morgan-clow/observability-lab) | Phase 5 — Prometheus, Grafana, ELK Stack, detection use cases | ⏳ Upcoming |
-| [openshift-gitops-lab](https://github.com/morgan-clow/openshift-gitops-lab) | Phase 6 — OpenShift, ArgoCD, GitOps workflows | ⏳ Upcoming |
+| [devsecops-lab](https://github.com/morgan-clow/devsecops-lab) | Phase 1 — Linux foundations, RHEL hardening, STIG/OpenSCAP compliance, logging/audit, incident response | 🔨 In Progress |
+| [ansible-hardening-roles](https://github.com/morgan-clow/ansible-hardening-roles) | Phase 1/2 — Production-quality Ansible roles for SSH/PAM hardening, logging/audit, baseline config; AWX integration | 🔨 In Progress |
+| [docker-container-lab](https://github.com/morgan-clow/docker-container-lab) | Phase 3 — Container fundamentals, Docker/Podman, secure image builds, Trivy scanning, SBOMs | ⏳ Upcoming |
+| [kubernetes-lab](https://github.com/morgan-clow/kubernetes-lab) | Phase 3/4 — Kubernetes cluster setup on Proxmox, workloads, storage, networking, RBAC, Helm, Operators | ⏳ Upcoming |
+| [aws-terraform-lab](https://github.com/morgan-clow/aws-terraform-lab) | Phase 2 — Terraform on AWS Free Tier: VPC, subnets, EC2, S3 remote state, IAM roles/policies, basic CI (plan/tests) | ⏳ Upcoming |
+| [observability-lab](https://github.com/morgan-clow/observability-lab) | Phase 2/5 — Prometheus, Alertmanager, Grafana, ELK/OpenSearch, Jaeger, SLOs/alerts, basic chaos tests | ⏳ Upcoming |
+| [openshift-gitops-lab](https://github.com/morgan-clow/openshift-gitops-lab) | Phase 4/5/6 — OpenShift/OKD architecture, Operators, Compliance Operator, ArgoCD GitOps, policy‑as‑code (OPA/Gatekeeper/Kyverno) | ⏳ Upcoming |
 
 ---
 
